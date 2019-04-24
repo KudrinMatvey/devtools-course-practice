@@ -21,7 +21,7 @@ void ComplexCalculator::help(const char* appname, const char* message) {
           "  $ " + appname + " <z1_real> <z1_imaginary> " +
           "<z2_real> <z2_imaginary> <operation>\n\n" +
 
-          "Where all arguments are double-precision numbers, " +
+          "Where all  arguments are double-precision numbers, " +
           "and <operation> is one of '+', '-', '*', '/'.\n";
 }
 
