@@ -15,7 +15,7 @@ ComplexCalculator::ComplexCalculator() : message_("") {}
 void ComplexCalculator::help(const char* appname, const char* message) {
     message_ =
         std::string(message) +
-          "This is a complex number calculator application.\n\n" +
+          "This is a complex number  calculator application.\n\n" +
           "Please provide arguments in the following format:\n\n"+
 
           "  $ " + appname + " <z1_real> <z1_imaginary> " +
